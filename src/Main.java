@@ -57,6 +57,14 @@ public class Main {
         var overload = boxer2 % boxer1;
         System.out.println(overload);
 
+        var allHours = 640;
+        var hoursForOnePerson = 8;
+        var allPersons = allHours / hoursForOnePerson;
+        System.out.println("Всего работников в компании - " + allPersons + " человек");
+        allPersons = allPersons + 94;
+        allHours = allPersons * 8;
+        System.out.println("Если в компании работает " + allPersons + " человек, то всего " + allHours + " часов работы может быть поделено между сотрудниками");
+
 
 
     }
