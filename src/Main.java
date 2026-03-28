@@ -22,15 +22,12 @@ public class Main {
         paper = paper + 4;
         System.out.println(paper);
 
-        var dog2 = 8.0;
-        dog2 = dog2 - 3.5;
-        System.out.println(dog2);
-        var cat2 = 3.6;
-        cat2 = cat2 - 1.6;
-        System.out.println(cat2);
-        var paper2 = 763789;
-        paper2 = paper2 - 7639;
-        System.out.println(paper2);
+        dog = dog - 3.5;
+        System.out.println(dog);
+        cat = cat - 1.6;
+        System.out.println(cat);
+        paper = paper - 7639;
+        System.out.println(paper);
 
         var friend = 19;
         System.out.println(friend);
